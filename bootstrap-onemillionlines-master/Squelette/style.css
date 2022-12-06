@@ -1,0 +1,119 @@
+#home {
+    background-image: url(/images/bg_header.jpg);
+    height: 100vh;
+
+
+
+}
+
+.button {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+.txt1 {
+
+    font-size: 3.5rem;
+}
+
+.txt2 {
+    font-size: 5rem;
+    padding-top: 5px;
+}
+
+.txt3 {
+    font-size: 2rem;
+    padding-top: 5px;
+}
+
+.col {
+    color: gray;
+    text-align: center;
+
+}
+
+#about {
+    background-image: url(/images/bg_nuage.jpg);
+    height: 60vh;
+
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.title3 {
+    text-align: center;
+    font-size: small;
+    color: white;
+    padding-right: 340px;
+}
+
+.title2 {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding-right: 180px;
+    padding-top: 5px;
+
+
+
+}
+
+.title4 {
+
+    padding-left: 200px;
+}
+
+#blog {
+    background-color: white;
+    height: 200px;
+}
+
+#history {
+    background-image: url(/images/bg_appareil_photo.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 800px;
+
+    color: white;
+}
+
+#font {
+    font-size: 30px;
+
+}
+
+#font2 {
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+#font3 {
+    font-size: 30px;
+
+}
+
+
+
+#contact {
+    background-image: url(/images/bg_newsletter.jpg);
+
+    background-position: center;
+    background-size: 100%;
+    height: 400px;
+    opacity: 100%;
+
+
+}
+
+.content-newsletter {
+    backdrop-filter: brightness(25%);
+}

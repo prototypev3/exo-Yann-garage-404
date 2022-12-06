@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="/js/masonry.js"></script>
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <!--home-->
+  <header id="home">
+    <div class="container-fluid">
+
+
+    </div>
+
+
+
+
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+
+          <img src="images/your_logo.png" alt="Logo"></a>
+
+
+        <nav class="navbar navbar-dark bg-dark align-base">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Features</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">My Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">My History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Look my Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Get in Touch!</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Download</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+      </div>
+    </nav>
+    <div class="text">
+      <h2 class="txt1">In the hall of the </h2>
+      <h1 class="txt2">Mountain King</h1>
+
+      <p class="txt3">This is a hero unit, a simple jumbotronstyle component for <br>
+        calling extra attention to features content or information.</p>
+    </div>
+
+    <div class="button pt-5">
+      <button type="button" class="btn btn-info  text-white  ">Learn More</button>
+      <button type="button" class="btn btn-danger">Download</button>
+  </header>
+  <!--features-->
+
+  <section id="features">
+    <div class="row">
+
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-pencil"
+          viewBox="0 0 16 16">
+          <path
+            d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+        </svg>
+        <h2 class="py-2 fw-normal">Consectetur Risus</h2>
+        <p>Cras justo odio,dapibus ac facilicic in,egestas<br> eget quam. Donec id elit non mi porta gravida<br>at eget
+          metus nullamid dolor id nibh ultricies<br>vehiculaut id elit.</p>
+      </div>
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-camera"
+          viewBox="0 0 16 16">
+          <path
+            d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+          <path
+            d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+        </svg>
+        <h2 class="py-2 fw-normal">Ultricies Aenean</h2>
+        <p>Cras justo odio,dapibus ac facilicic in,egestas<br> eget quam. Donec id elit non mi porta gravida<br>at eget
+          metus nullamid dolor id nibh ultricies<br>vehiculaut id elit.</p>
+      </div>
+      <div class="col">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bookmark"
+          viewBox="0 0 16 16">
+          <path
+            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+        </svg>
+        <h2 class="py-2 fw-normal">Cras Sollicitudin</h2>
+        <p>Cras justo odio,dapibus ac facilicic in,egestas<br> eget quam. Donec id elit non mi porta gravida<br>at eget
+          metus nullamid dolor id nibh ultricies<br>vehiculaut id elit.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!--about-->
+
+  <section id="about">
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+
+
+
+
+        <div class="col-6">
+
+        </div>
+        <div class="col-5 text-white bg-info bg-opacity-50 p-5 ">
+          <h1 class="p-2">Ligula Mattis Ornare<br> Ultricies
+
+          </h1>
+
+          <h2 id="font3">Pellentesque Cursus Amet Parturient Etiam <br><br>
+
+          </h2>
+          <h3 id="font2">Cras justo odio, dapibuss ac facilisis in, egestas eget quam.<br> Done id elit non mi porta
+            gravida at eget metus. Nullam id<br>dolor id nibh ultricies vehicula ut id elit.<br>
+
+          </h3>
+
+
+          <div class="d-flex text-center justify-content-around">
+
+            <div class="col text-white border p-5">
+
+              <h1>Ultricies</h1>
+              <h2> 23.578</h2>
+
+            </div>
+
+
+            <div class="col text-white border p-5">
+
+              <h1>Fermentum</h1>
+              <h2>12.702</h2>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--blog-->
+  <section id="blog ">
+
+    <div class="container-fluid h-100 ">
+
+      <div class="row ">
+
+        <div class="col-1 ">
+
+        </div>
+        <div class="col-6 mt-5 ">
+          <h1 class="text-secondary ">Lorem ipsum dolor sit amet,<br>consectur adipscing elit</h1><br>
+
+          <p class="text-secondary lh-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde et libero quo
+            quasi
+            nobis tempora enim iusto nam accusantium consectetur, sunt odio ducimus itaque necessitatibus dolores
+            accusamus fugiat exercitationem, iste similique quod ut, dicta magnam. Veniam quaerat doloremque ipsa,
+            nostrum dolore, doloribus officia assumenda expedita voluptatum laudantium quae minus repudiandae sed illum
+            recusandae iure dolorum facilis accusantium? Voluptates velit in reiciendis temporibus aperiam, expedita
+            beatae!</p>
+
+          <button type="button" class="btn btn-danger">Take a Look <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+            </svg></button>
+
+        </div>
+
+        <img src="images/1200.jpeg" class="col-4 p-5">
+
+
+        <div class="col-2 border-1">
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!--history-->
+
+  <section id="history">
+
+    <div class="container-fluid h-100">
+
+
+      <div class="row h-100">
+
+        <div class="col">
+
+        </div>
+
+        <div class="col-5 text-white bg-info bg-opacity-50 ">
+
+          <h1 id="font">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum esse dolorum
+            libero error
+            dignissimos sed soluta mollitia, doloremque veniam officiis earum impedit.<br><br>
+          </h1>
+
+          <h2 id="font2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Velit quos totam laborum
+            consectetur sint
+            incidunt consequatur inventore sunt praesentium alias nulla dolor sed rem, ex ullam veniam hic maiores quis
+            odio quae aut eum explicabo.<br> Quaerat totam dolorum dolore esse! Neque, porro? Voluptatibus harum eaque
+            quidem officia earum magni dolorem accusantium molestias labore, dolorum rerum! Deleniti, officia!<br><br>
+
+          </h2>
+
+          <h3 id="font3">- Fermentum Dapibus<br><br>
+
+          </h3>
+
+          <h4 id="font4">Nibh Eltiam risus Bibendum<br><br>Nullam id dolor id nibh ultricies behicula ut id elit.
+
+          </h4>
+        </div>
+
+        <div class="col-6">
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!--photos-->
+
+  <section id="photos ">
+    <div class="container bg-secondary">
+      <div class="row row-cols-2">
+        <div class="col-8">
+
+          <img src="images/300.jpeg" class="w-100 mt-2">
+          <div class="row">
+            <div class=" col-6">
+
+              <img src="images/800.jpeg" class="w-100 mt-2">
+
+
+
+            </div>
+            <div class="col">
+              <img src="images/400.jpeg" class="w-100 mt-2">
+              <img src="images/2476.jpeg" class="w-100 mt-2">
+            </div>
+          </div>
+          <div class="col-12">
+            <img src="images/140.jpeg" class="w-100 mt-2">
+          </div>
+
+        </div>
+
+        <div class="col-4">
+          <img src="images/776.jpeg" class="w-100 mt-2">
+          <img src="images/439.jpeg" class="w-100 mt-2">
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+  <!--partenaires-->
+  <section id="partenaires">
+
+    <div class="d-flex justify-content-evenly bg-white">
+
+      <img src="images/logo-sample-01.jpg" height="100px" width="100px">
+      <img src="images/logo-sample-02.jpg" height="100px" width="100px">
+      <img src="images/logo-sample-03.png" height="100px" width="100px">
+      <img src="images/logo-sample-04.jpg" height="100px" width="100px">
+      <img src="images/logo-sample-05.jpg" height="100px" width="100px">
+      <img src="images/logo-sample-06.png" height="100px" width="100px">
+
+    </div>
+
+  </section>
+
+  <!--contact-->
+  <section id="contact">
+
+    <div class="container-fluid content-newsletter h-100">
+
+      <div class="row">
+
+
+        <div class="col-2">
+
+        </div>
+
+        <div class="jumbotron flex col-6 ">
+          <h1 class="display-5 text-white pt-3">Maecenenas sed diam eget risus varius<br> blandit sit amet non magma.
+          </h1>
+          <p class="lead text-white pt-2">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+            Cras
+            mattis<br>consectur purus sit amet fermentum Praesent commodo cursus magna, vel scelerisque
+            nisl consectetur.
+          </p>
+
+          <p class="lead">
+            <input id="floatingInput" class="form-control" type="email" placeholder="Your Email Here...">
+
+            <a class="btn btn-danger btn-lg " href="#" role="button">Submit newsletter</a>
+          </p>
+          <div class="col-4">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--footer-->
+  <section id="footer">
+
+    <div class="container-fluid  h-100">
+
+      <div class="row">
+
+
+        <div class="col-2">
+
+        </div>
+
+        <div class="flex col-6 bg-white opacity-100">
+
+          <p class="pt-1">
+          <h1 class="display-4 text-dark pt-2">Your Logo <br>
+          </h1>
+
+          <p class="lead p-2 pt-3">2016 Your Compagny. Designed and Developped by The Maitre Jet d'ail.
+
+          </p>
+          <div class="col-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter"
+              viewBox="0 0 16 16">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok"
+              viewBox="0 0 16 16">
+              <path
+                d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+            </svg>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-discord"
+              viewBox="0 0 16 16">
+              <path
+                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+            </svg>
+
+
+            <footer>
+
+            </footer>
+  </section>
+</body>
+
+</html>
